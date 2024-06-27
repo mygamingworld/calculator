@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+
+
+    <div class="container">
+        <div class="input">
+            
+            <input name="input" id="inp">
+
+        </div>
+
+        <div class="main-box">
+
+            
+        <div class="row row1">
+            <button class="box" value="AC" onclick="allClear();">AC</button>
+            <button class="box" value="DEL" onclick="del();">DEL</button>
+            <button class="box" value="%" onclick="sum(value);">%</button>
+            <button class="box" value="/" onclick="sum(value);">/</button>
+        </div>
+        <div class="row row2">
+            <button class="box" value="1" onclick="sum(value);">1</button>
+            <button class="box" value="2" onclick="sum(value);">2</button>
+            <button class="box" value="3" onclick="sum(value);">3</button>
+            <button class="box" value="*" onclick="sum(value);">X</button>
+        </div>
+        <div class="row row3">
+            <button class="box" value="4" onclick="sum(value);">4</button>
+            <button class="box" value="5" onclick="sum(value);">5</button>
+            <button class="box" value="6" onclick="sum(value);">6</button>
+            <button class="box" value="-" onclick="sum(value);">-</button>
+        </div>
+        <div class="row row4">
+            <button class="box" value="7" onclick="sum(value);">7</button>
+            <button class="box" value="8" onclick="sum(value);">8</button>
+            <button class="box" value="9" onclick="sum(value);">9</button>
+            <button class="box" value="+" onclick="sum('+');">+</button>
+        </div>
+        <div class="row row5">
+            <button class="box" value="00" onclick="sum(value);">00</button>
+            <button class="box" value="0" onclick="sum(value);">0</button>
+            <button class="box" value="." onclick="sum(value);">.</button>
+            <button class="box" value="=" onclick="total();">=</button>
+        </div>
+
+    </div>
+
+    </div>
+
+    
+    <script src="calc.js"></script>
+</body>
+</html>
